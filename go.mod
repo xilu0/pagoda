@@ -1,4 +1,4 @@
-module github.com/wise2c-devops/pagoda
+module github.com/xilu0/pagoda
 
 go 1.13
 
@@ -11,12 +11,14 @@ require (
 	github.com/gorilla/websocket v1.4.1 // indirect
 	github.com/mattn/go-sqlite3 v2.0.2+incompatible
 	gopkg.in/yaml.v2 v2.2.7
-    github.com/wise2c-devops/pagoda/database v0.0.0
-	github.com/wise2c-devops/pagoda/playbook v0.0.0
-	github.com/wise2c-devops/pagoda/runtime v0.0.0
+	github.com/xilu0/pagoda/database v0.0.0
+	github.com/xilu0/pagoda/playbook v0.0.0
+	github.com/xilu0/pagoda/runtime v0.0.0
 
 )
 
-replace     github.com/wise2c-devops/pagoda/database v0.0.0 => .\database
-replace	    github.com/wise2c-devops/pagoda/playbook v0.0.0 => .\playbook
-replace 	github.com/wise2c-devops/pagoda/runtime v0.0.0 => .\runtime
+replace github.com/xilu0/pagoda/database v0.0.0 => .\database
+
+replace github.com/xilu0/pagoda/playbook v0.0.0 => .\playbook
+
+replace github.com/xilu0/pagoda/runtime v0.0.0 => .\runtime

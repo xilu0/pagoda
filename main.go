@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"path"
 
-	"github.com/wise2c-devops/pagoda/database"
-	"github.com/wise2c-devops/pagoda/playbook"
-	"github.com/wise2c-devops/pagoda/runtime"
+	"github.com/xilu0/pagoda/database"
+	"github.com/xilu0/pagoda/playbook"
+	"github.com/xilu0/pagoda/runtime"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
